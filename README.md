@@ -18,7 +18,7 @@ A Python-based security tool that analyzes authentication logs to detect potenti
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/log-analysis-threat-detection.git
+   git clone https://github.com/your-SRsriram8/log-analysis-threat-detection.git
    cd log-analysis-threat-detection
    ```
 
@@ -63,25 +63,22 @@ Creates bar chart of suspicious IP addresses:
 python src/visualize_results.py
 ```
 
-## Output
-
-![alt text](image.png)
 
 ## Project Structure
 
 ```
 log-analysis-threat-detection/
-├── data/                    # Input log files
+├── data/                    
 │   └── sample_auth.log     
-├── src/                    # Source code
-│   ├── log_parser.py      # Log parsing logic
-│   ├── detect_bruteforce.py# Attack detection
-│   └── visualize_results.py# Data visualization
-├── reports/                # Generated reports
+├── src/                    
+│   ├── log_parser.py      
+│   ├── detect_bruteforce.py
+│   └── visualize_results.py
+├── reports/                
 │   ├── parsed_logs.csv    
 │   ├── threat_report.txt  
 │   └── ip_analysis.png    
-└── requirements.txt        # Project dependencies
+└── requirements.txt       
 ```
 
 ## Requirements
@@ -92,6 +89,8 @@ log-analysis-threat-detection/
 - Additional dependencies in [requirements.txt](requirements.txt)
 
 ## Sample Output
+
+![alt text](image.png)
 
 ### Threat Report Example
 
